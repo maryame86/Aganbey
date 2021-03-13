@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="39.838688mm"
+   height="40.594639mm"
+   viewBox="0 0 39.838688 40.594639"
+   version="1.1"
+   id="svg1714"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="telephone.svg">
+  <defs
+     id="defs1708" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="326.71426"
+     inkscape:cy="-386.14287"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1711">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.1610178,-6.0717252)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke-width:0.26458329"
+       d="m 35.376055,30.428515 c -2.65591,2.70631 -2.65591,5.41261 -5.31182,5.41261 -2.65591,0 -5.31183,-2.7063 -7.967742,-5.41261 -2.655909,-2.70632 -5.311825,-5.41262 -5.311825,-8.11893 0,-2.70631 2.655916,-2.70631 5.311825,-5.412623 2.655912,-2.706306 -5.311825,-10.8252368 -7.967734,-10.8252368 -2.655916,0 -7.9677412,8.1189308 -7.9677412,8.1189308 0,5.412619 5.4579002,16.386699 10.6236502,21.650469 5.163094,5.26378 15.935477,10.82524 21.247307,10.82524 0,0 7.96773,-5.41262 7.96773,-8.11892 0,-2.70632 -7.96773,-10.82525 -10.62365,-8.11893"
+       id="path479" />
+  </g>
+</svg>
