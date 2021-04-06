@@ -266,6 +266,7 @@ article .pic2 {
 .overlay a {
   -webkit-animation: float 2s ease-in-out infinite;
           animation: float 2s ease-in-out infinite;
+  z-index: 2;
 }
 
 @-webkit-keyframes float {
@@ -299,12 +300,14 @@ article .pic2 {
 }
 
 .overlay a .arrow {
+  z-index: 2;
   width: 3vw;
 }
 
 @media (max-width: 575.98px) {
   .overlay a .arrow {
     width: 50px;
+    z-index: 2;
   }
 }
 
