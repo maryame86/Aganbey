@@ -246,7 +246,9 @@ article .pic2 {
 @media (max-width: 575.98px) {
   .intro .overlay img {
     width: 80%;
-    vertical-align: top;
+    -ms-flex-item-align: self-start;
+        -ms-grid-row-align: self-start;
+        align-self: self-start;
   }
 }
 
