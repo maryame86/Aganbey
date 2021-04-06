@@ -211,8 +211,8 @@ article .pic2 {
 
 @media (max-width: 575.98px) {
   .intro .carousel .carousel-item img {
-    max-height: 100vh;
-    min-width: 230%;
+    min-height: 100vh;
+    min-width: 250%;
   }
 }
 
@@ -227,6 +227,7 @@ article .pic2 {
   justify-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  min-height: 100vh;
 }
 
 @media (max-width: 575.98px) {
