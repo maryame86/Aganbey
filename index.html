@@ -3,301 +3,293 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-    <link rel="stylesheet" href="sass/style.css">
-    <!--Bootstrap v5-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <title>Ağanbey Çiftlik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--Bootstrap v5-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
+     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+     <link rel="stylesheet" href="style2.css">
+     <link rel="stylesheet" href="sass/style.css">
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
 </head>
-<body>
-    <!--Base container-->
-  <div class="base container-fluid mx-auto p-0 w-100 d-block" data-spy="scroll" data-target=".navbar-nav" data-offset="0">
-        <!--Intro-->
-        <div class="intro container-fluid w-100 mx-auto forest d-flex p-0" id="home">
-          <!--Overlay-->
-          <div class="overlay w-100">
-            <img src="media/images/aganbey-logo-01.svg" alt="Aganbey">
-            <h1 class="first w-100 mx-auto text-center dm-sans">
-              <span class="eng">
-                Natural Olive Farm & Olive Oil Producer
-              </span>
-              <span class="turk">
-                Natürel Zeytin Çiftliği ve Zeytinyağı Üreticisi
-              </span>
-            </h1>
-            <a href="#front" class="mx-auto">
-            <img class="arrow mx-auto" src="media/images/arrow-down-circle-fill.svg" alt="">
-          </a>
+<body data-spy="scroll" data-target=".navbar-nav" data-offset="0">
+     <!--Base container-->
+    <div class="base container-fluid mx-auto p-0 w-100 d-block">
+           <!--Intro-->
+           <div class="intro container-fluid w-100 mx-auto forest d-flex p-0" id="home">
+            <!--Overlay-->
+            <div class="overlay w-100">
+              <img src="media/images/aganbey-logo-01.svg" alt="Aganbey">
+              <h1 class="first w-100 mx-auto text-center dm-sans">
+                <span class="eng">
+                  Natural Olive Farm & Olive Oil Producer
+                </span>
+                <span class="turk">
+                  Natürel Zeytin Çiftliği ve Zeytinyağı Üreticisi
+                </span>
+              </h1>
+              <a href="#front" class="mx-auto">
+              <img class="arrow mx-auto" src="media/images/arrow-down-circle-fill.svg" alt="">
+            </a>
+            </div>
+            <!--Carousel-->  
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mt-1" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="media/images/photos/carousel/IMG_3284.JPG" class="img-responsive d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="media/images/photos/carousel/IMG_3290.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="media/images/photos/carousel/IMG_3300.JPG" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="media/images/photos/carousel/IMG_3290.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="media/images/photos/carousel/IMG_2029.jpg" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="media/images/photos/carousel/IMG_3305.JPG" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="media/images/photos/carousel/IMG_3325.JPG" class="d-block w-100">
+            </div>
           </div>
-          <!--Carousel-->  
-      <div id="carouselExampleFade" class="carousel slide carousel-fade mt-1" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="media/images/photos/carousel/IMG_3284.JPG" class="img-responsive d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="media/images/photos/carousel/IMG_3290.jpg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="media/images/photos/carousel/IMG_3300.JPG" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="media/images/photos/carousel/IMG_3290.jpg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="media/images/photos/carousel/IMG_2029.jpg" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="media/images/photos/carousel/IMG_3305.JPG" class="d-block w-100">
-          </div>
-          <div class="carousel-item">
-            <img src="media/images/photos/carousel/IMG_3325.JPG" class="d-block w-100">
-          </div>
+         
         </div>
-       
-      </div>
+            </div>
+          <!--Main Nav-->
+          <nav class="navbar navbar-expand-lg navbar-dark forest sticky-top border-bottom border-dark" id="navbar">
+            <div class="container-fluid d-flex">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <!--Off nav ul controls-->
+              <div class="lang d-inline-flex p-0 m-0 align-items-center text-white">
+                <!--Language controls-->
+                <div class="btn dm-sans text-light" id="TR-btn">Türkçe</div>|
+                <div class="btn text-light dm-sans" id="ENG-btn">English</div>
+              </div>
+              <!--Main ul/dropdown-->
+              <div class="dd collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto dm-sans">
+                  <li class="nav-item px-4">
+                    <a class="nav-link active" aria-current="page" href="#" href="#scrollspyHeading1">
+                      <span class="eng">Home</span><span class="turk">Anasayfa</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#about" href="#scrollspyHeading2">
+                      <span class="eng">About Us</span><span class="turk">Hikayemiz</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#products" href="#scrollspyHeading3">
+                      <span class="eng">Our Products</span><span class="turk">Ürünlerimiz</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="checkout.html" href="#scrollspyHeading4">
+                      <span class="eng">Online Store</span><span class="turk">Mağaza</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#contact" href="#scrollspyHeading5">
+                      <span class="eng">Contact Us</span><span class="turk">İletişim</span></a>
+                  </li>
+                  <li class="nav-item px-4">
+                    <a class="nav-link" href="#">
+                      <span class="eng">Gallery</span><span class="turk">Galeri</span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Main content-->
+          <div class="cc one container-fluid p-0 mx-auto mt-2" id="front">
+              <div class="intro2 col-lg-6">
+                <h3 class="dm-serif italic pb-3" data-aos="fade-in" data-aos-duration="1500" data-aos-offset="0">
+                    <span class="eng">Embracing Traditions, Chasing Novelties</span> 
+                    <span class="turk w-100">Gelenekseli kucaklıyoruz, Yenilikleri Kovalıyoruz</span>
+                </h3>
+                <img src="media/images/swash.svg" alt="swash" width="15%">
+                    <h5 class="dm-serif italic pt-4" data-aos="fade-in" data-aos-delay="500" data-aos-duration="1500" data-aos-offset="0">
+                        <span class="eng">The necessities of the lifestyle we are in pursuit of as a family:<br><br>
+                        flavor, health, nature, and pleasure.<br><br>
+                        Our goal is to share this special blend with you.
+                        </span>
+                        <span class="turk">
+                        Peşinde olduğumuz hayatın vazgeçilmezleri: <br><br>
+                        Lezzet, sağlık, keyif ve doğa. <br><br>
+                        Amacımız bu harmanı sizlerle buluşturmak
+                        </span>
+                </h5>
+                
+              </div>
+              <div class="first-pic col-lg-6">
+                <img src="/media/images/photos/pic.jpg" alt="pic1" width="100%">
+               </div>
           </div>
-        <!--Main Nav-->
-        <nav class="navbar navbar-expand-lg navbar-dark forest sticky-top border-bottom border-dark" id="navbar">
-          <div class="container-fluid d-flex">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <!--Off nav ul controls-->
-            <div class="lang d-inline-flex p-0 m-0 align-items-center text-white">
-              <!--Language controls-->
-              <div class="btn dm-sans text-light" id="TR-btn">Türkçe</div>|
-              <div class="btn text-light dm-sans" id="ENG-btn">English</div>
-            </div>
-            <!--Main ul/dropdown-->
-            <div class="dd collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav mx-auto dm-sans">
-                <li class="nav-item px-4">
-                  <a class="nav-link active" aria-current="page" href="#" href="#scrollspyHeading1">
-                    <span class="eng">Home</span><span class="turk">Anasayfa</span></a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#about" href="#scrollspyHeading2">
-                    <span class="eng">About Us</span><span class="turk">Hikayemiz</span></a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#products" href="#scrollspyHeading3">
-                    <span class="eng">Our Products</span><span class="turk">Ürünlerimiz</span></a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="checkout.html" href="#scrollspyHeading4">
-                    <span class="eng">Online Store</span><span class="turk">Mağaza</span></a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#contact" href="#scrollspyHeading5">
-                    <span class="eng">Contact Us</span><span class="turk">İletişim</span></a>
-                </li>
-                <li class="nav-item px-4">
-                  <a class="nav-link" href="#">
-                    <span class="eng">Gallery</span><span class="turk">Galeri</span></a>
-                </li>
-              </ul>
-            </div>
+          <!--Whitespace-->
+          <div class="whitespace w-100 mx-auto forest my-2" id="about">
+              <h1 class="dm-serif w-100 py-4 text-center text-light m-0">
+                  <span class="eng">About Us</span><span class="turk">Hikayemiz</span></h1>
           </div>
-        </nav>
-  
-      <!--Content container-->
-       <div class="container mx-auto w-100 d-block p-0 border border-light">
-      <!--Front page content-->
-      <div class="front container row mx-auto w-100 d-inline-flex p-3 align-content-center" id="front">
-         <!--Whitespace-->
-         <div class="whitespace w-100 mx-auto"></div>
-          <div class="welcome row m-1">
-            
-           <div class="row">
-              <h2 class="text-center my-4 dm-serif italic">
-                <span class="eng">Embracing Traditions, Chasing Novelties</span>
-                <span class="turk">Gelenekseli kucaklıyoruz, Yenilikleri Kovalıyoruz</span>
-              </h2>
-            </div>
-            <div class="swash w-100 pb-4 mx-auto d-inline-flex justify-content-center">
-              <img src="media/images/swash.svg" alt="swash"></div>
+          <!--About us section-->
+          <div class="cc one container-fluid p-0 mx-auto">
+              <div class="farm col-lg-5">
+                  <img src="/media/images/photos/farm.jpg" alt="farm" width="100%">
+              </div>
+              <div class="aboutus col-lg-7">
+                <article class="art1 dm-sans mx-auto w-100">
+                    <span class="eng"> 
+                      A couple that had fallen in love with the olive tree 20 years ago, and their daughter whom had gone 
+                      abroad to follow her dreams to only find out that it has always been back at nature in the precious 
+                      lands of the Aegean coast… <br> <br>
+                      We are boutique olive oil producers, in one of the biggest single estate olive farms in our region, 
+                      with 7000 olive trees in 20 hectares of land. We are in Reisdere village, 11 kms to Alacati, surrounded 
+                      on both sides by the rivers flowing to the water dam. Our land is a part of Erythrai, one of the twelve 
+                      Ionian cities of Asia Minor, also known as Anatolia. We produce Extra Virgin Olive Oil which represents 
+                      the hallmark of the Mediterranean diet. We are a family owned and run business, a family that has been 
+                      in food, service and tourism industry for 3 generations now. <br><br>
+                      Our story in this farm however began when 
+                      a couple fell in love with the “tree of life”, also known as the olive tree, 20 years ago and decided to 
+                      buy this farm. What has started off as a curious interest, a hobby, has now turned into a dedicated passion. 
+                      We could not help but want to learn, to educate ourselves and continuously aim for the highest quality possible. 
+                      This is after all what the ancient Greek civilizations have referred to as liquid gold. As a family that has 
+                      always sought after what is indigenous, local, special and delicious we are working towards creating a 
+                      sustainable product, brand, space and lifestyle that upholds mother nature and all her gifts. 
+                    </span>
+                    <span class="turk">
+                      Hayatlarını turizm ve servis sektörüne adamış, 20 sene önce zeytin ağacına aşık olmuş bir çift ve yurtdışında 
+                      aradığını bulamayıp, asıl aradığının doğada olduğunu fark ederek kıymetli Ege topraklarına dönmüş kızları…
+                      <br><br>
+                      Çeşme yarımadasında, Alaçatı’ya 11 km uzaklıktaki Reisdere köyünde 300 dönüme yakın, bölgemizin en büyük tek
+                      bahçe zeytin çiftliklerinden bir tanesiyiz. Bizim hikayemiz iki jenerasyondur restoran ve otelcilik yapan bir 
+                      ailenin, ağacı olarak bilinen zeytine aşık olması ve 20 sene önce üretim yapmakta olduğumuz araziyi almalarıyla 
+                      başlıyor. Başlarda sadece kendi tüketimimiz ve Alaçatı’daki restoranımız Papazz için ürettiğimiz zeytin yağı, 
+                      hobi ve öğrenim deneyimi olmaktan çıkıp bir tutkuya dönüştü. Ağacın kendisinin, meyvesinin ve yağının büyüsüne 
+                      kapılıp istemsizce daha fazlasını bilmeye, öğrenmeye ve üretmeye başladık.
+                      <br><br>
+                      Kurduğumuz markamızla yılların birikimini sizlerle paylaşmaya karar verdik. Her zaman yerli, yerel, özel ve güzeli
+                      arayan bir aile olarak doğal ve sürdürülebilirlik ilkelerini yansıtan bir marka, yaşam ve aktivite alanı oluşturmaya
+                      çalışmaktayız.
+                    </span>
+                   
+                </article> 
+              </div>
           </div>
-          <div class="pic row p-0 mx-auto d-flex align-items-start justify-content-center ">
-            <div class="pic-frame col-lg-5 p-4 bg-light shadow">
-              <img src="media/images/photos/pic.jpg" alt="" class="mx-auto">
+          <div class="whitespace w-100 mx-auto forest my-2">
+            <h4 class="dm-serif w-100 py-3 text-center text-light m-0">
+                <span class="eng">Our Location</span>
+                <span class="turk">Konumumuz</span>
+            </h4>
+          </div>
+          <!--Map Container-->
+          <div class="cc container-fluid m-0 p-0 w-100 d-inline-flex">
+            <div class="map-div col-lg-8 m-0">
+                <iframe class="mx-auto border border-secondary" loading="lazy" allowfullscreen width="100%" 
+                src="https://www.google.com/maps/embed/v1/view?zoom=12&&center=38.3042%2C26.4371&key=AIzaSyBO-uzR-JcE9ai0TGenHOiL3_WA2a0SMlI"
+                >
+              </iframe>
             </div>
-            <div class="col-lg-5 d-flex align-items-center">
-              <blockquote class="text-center italic p-4 text-light shadow">
-                <span class="eng"> 
-                The necessities of the lifestyle we are in pursuit of as a family:<br>
-                flavor, health, nature, and pleasure.<br>
-                Our goal is to share this special blend with you.
-              </span>
-              <span class="turk">
-                Peşinde olduğumuz hayatın vazgeçilmezleri: <br>
-                Lezzet, sağlık, keyif ve doğa. <br><br>
-                Amacımız bu harmanı sizlerle buluşturmak
-              </span>
-              </blockquote>
+            <div class="address-div col-lg-4 m-0 d-flex flex-wrap align-items-center">
+                
+                <p class="address dm-sans text-center w-100">
+                    <b>Ağanbey Çiftlik <br>
+                    Reisdere Mahallesi, <br>
+                    Hirsiz Dere, Mevkii no.6,<br>
+                    35930, Çeşme/İzmir, <br>
+                    Türkiye <br><br>
+                    </b>   
+                <img src="media/images/swash.svg" alt="swash" width="15%">
+                </p>
             </div>
           </div>
           <!--Whitespace-->
-          <div class="whitespace w-100 mx-auto"></div>
-          <!--Front page content end-->
+          <div class="whitespace w-100 mx-auto forest my-2">
+            <h1 class="dm-serif w-100 py-4 text-center text-light m-0">
+                <span class="eng">Our Products</span><span class="turk">Ürünlerimiz</span> 
+            </h1>
         </div>
-          <!--About container-->
-          <div class=" about container mx-auto w-100 d-block p-0 border border-light" id="about">
-            <div class="row w-100 mx-auto my-4">
-              <h1 class="my-2 pt-4 w-100 text-center dm-serif">
-                <span class="eng">About Us</span>
-                <span class="turk">Hikayemiz</span>
-              </h1>
+        <!--Product Container-->
+        <div class="cc product-container container-fluid m-0 p-0 w-100 d-inline-flex" id="products">
+            <div class="col-lg-5">
+                <img src="/media/images/photos/products-all.jpg" alt="" width="100%">
             </div>
-            
-              <section>
-              <article class="w-75 mx-auto text-justify">
-                <span class="eng">A couple that had fallen in love with the olive tree 20 years ago, and their daughter whom had gone 
-                abroad to follow her dreams to only find out that it has always been back at nature in the precious 
-                lands of the Aegean coast…</span>
-                <span class="turk">
-                  Hayatlarını turizm ve servis sektörüne adamış, 20 sene önce zeytin ağacına aşık olmuş bir çift ve yurtdışında 
-                  aradığını bulamayıp, asıl aradığının doğada olduğunu fark ederek kıymetli Ege topraklarına dönmüş kızları… 
-                </span>
-                
-                <br>
-              </article>
-            
-              <article class="w-75 mx-auto mt-3">
-                <img src="media/images/photos/farm.jpg" alt="Aganbey Çiftlik" class="pic1">
-                <span class="eng"> We are boutique olive oil producers, in one of the biggest single estate olive farms in our region, 
-                with 7000 olive trees in 20 hectares of land. We are in Reisdere village, 11 kms to Alacati, surrounded 
-                on both sides by the rivers flowing to the water dam. Our land is a part of Erythrai, one of the twelve 
-                Ionian cities of Asia Minor, also known as Anatolia. We produce Extra Virgin Olive Oil which represents 
-                the hallmark of the Mediterranean diet. We are a family owned and run business, a family that has been 
-                in food, service and tourism industry for 3 generations now. 
-              </span>
-              <span class="turk">
-                Çeşme yarımadasında, Alaçatı’ya 11 km uzaklıktaki Reisdere köyünde 300 dönüme yakın, bölgemizin en büyük tek bahçe 
-                zeytin çiftliklerinden bir tanesiyiz. Bizim hikayemiz iki jenerasyondur restoran ve otelcilik yapan bir ailenin, 
-                 ağacı olarak bilinen zeytine aşık olması ve 20 sene önce üretim yapmakta olduğumuz araziyi almalarıyla başlıyor. 
-                 Başlarda sadece kendi tüketimimiz ve Alaçatı’daki restoranımız Papazz için ürettiğimiz zeytin yağı, hobi ve 
-                 öğrenim deneyimi olmaktan çıkıp bir tutkuya dönüştü. Ağacın kendisinin, meyvesinin ve yağının büyüsüne kapılıp 
-                 istemsizce daha fazlasını bilmeye, öğrenmeye ve üretmeye başladık. 
-              </span>
-               
-                <br><br>
-                <span class="eng">Our story in this farm however began when 
-                a couple fell in love with the “tree of life”, also known as the olive tree, 20 years ago and decided 
-                to buy this farm. What has started off as a curious interest, a hobby, has now turned into a dedicated 
-                passion. We could not help but want to learn, to educate ourselves and continuously aim for the highest 
-                quality possible. This is after all what the ancient Greek civilizations have referred to as liquid gold. 
-                As a family that has always sought after what is indigenous, local, special and delicious we are working 
-                towards creating a sustainable product, brand, space and lifestyle that upholds mother nature and all her 
-                gifts.
-              </span>
-              <span class="turk">
-                Kurduğumuz markamızla yılların birikimini sizlerle paylaşmaya karar verdik. Her zaman yerli, yerel, özel ve 
-                güzeli arayan bir aile olarak doğal ve sürdürülebilirlik ilkelerini yansıtan bir marka, yaşam ve aktivite alanı
-                oluşturmaya çalışmaktayız. 
-              </span>
-              </article>
-              <div class="swash w-100 py-5 mx-auto d-inline-flex justify-content-center border-bottom border-light">
-                <img src="media/images/swash.svg" alt="swash"></div>
-            </section>
-  
-            <section class="w-100 mx-auto d-flex flex-wrap">
-              <!--GOOGLE MAP-->
-            <h2 class="my-2 w-100 text-center dm-serif py-4 d-inline-block">
-              <span class="eng">Our Location</span>
-              <span class="turk">Konumumuz</span>
-            </h2>
-                <iframe class="mx-auto border border-secondary" loading="lazy" allowfullscreen 
-                src="https://www.google.com/maps/embed/v1/view?zoom=12&&center=38.3042%2C26.4371&key=AIzaSyBO-uzR-JcE9ai0TGenHOiL3_WA2a0SMlI">
-              </iframe>
-                <p class="address dm-sans text-center w-100 mt-4">
-                  Reisdere Mahallesi, Hirsiz Dere, Mevkii no.6,<br>
-                  35930, Çeşme/İzmir, Türkiye
-                </p>
-            </section>
-          
-             <!--Whitespace-->
-          <div class="whitespace w-100 mx-auto"></div>
-          <!--About container end-->
-            </div>    
-            <!--Products container-->
-            <div class="product container mx-auto w-100 d-block p-0 border border-light" id="products">
-              <div class="row w-100 mx-auto my-4">
-                <h1 class="my-2 w-100 text-center dm-serif pt-4 mb-4">
-                  <span class="eng">Our Products</span>
-                  <span class="turk">Ürünlerimiz</span>
-                </h1>
-                <p class="w-75 mx-auto dm-sans text-center">
-                  <span class="eng">
-                    Learn more about how we grow and harvest our olives and our natural oil production methods below.
-                  </span>
-                  <span class="turk"></span>
-                </p>
-              </div>
-              <div class="promo mx-auto row d-flex align-items-center">
-
-                <div class="col-lg-6 products-all p-2 mx-auto bg-light shadow">
-                  <img src="media/images/photos/products-all.jpg" alt="all-products">
+            <div class="col-lg-7">
+                <div class="w-100 mx-auto">
+                    <p class="w-75 mx-auto dm-sans text-center pt-4 text-light">
+                    <span class="">
+                      Learn more about how we grow and harvest our olives and our natural oil production methods below.
+                    </span>
+                    <span class=""></span>
+                <div class="buy mx-auto d-flex flex-wrap justify-content-center">
+                    <h3 class="text-light dm-serif w-100 text-center mt-4">Visit Our Online Store</h3>
+                    <a href="checkout.html" class="mx-auto">
+                    <button type="button" class="btn btn-lg dm-serif my-5 text-light border border-light shadow">Shop Now <img src="/media/images/shopping_cart_white_24dp.svg" alt="cart"></button>
+                  </a>
                 </div>
-                <div class="buy col-lg-5 mx-auto d-flex flex-wrap justify-content-center shadow">
-                  <h3 class="text-light dm-serif w-100 text-center mt-4">Visit Our Online Store</h3>
-                  <a href="checkout.html" class="mx-auto">
-                  <button type="button" class="btn btn-lg dm-serif my-5 border border-light">Shop Now</button>
-                </a>
-              </div>
+            </div>
+                
+            </div>
+        </div>
+        <!--Whitespace-->
+        <div class="whitespace w-100 mx-auto forest my-2">
+            <h4 class="dm-serif w-100 py-3 text-center text-light m-0">
+                <span class="eng">Harvest and Production</span>
+                <span class="turk">Üretimimiz</span>
+            </h4>
+          </div>
 
-              </div>
-              <div class="swash w-100 py-5 mx-auto d-inline-flex justify-content-center">
-                <img src="media/images/swash.svg" alt="swash"></div>
-              <!--Product articles-->
-              <div class="w-100 mx-auto">
-                <section id="hp">
-                  <h3 class="w-75 mx-auto dm-serif text-center p-3">
-                    <span class="eng">Harvest and Production</span>
-                    <span class="turk">Üretimimiz</span>
-                  </h3>
-                  <article class="w-75 mx-auto mt-3 dm-sans">
-                    <img src="media/images/photos/olive-basket.jpg" alt="white basket" class="pic2">
-                    <span class="eng"> 
+          <div class="cc container-fluid m-0 p-0 w-100 d-inline-flex">
+            <div class="harvest col-lg-7 p-2">
+                <article class="art2 dm-sans mx-auto w-100">
+                    <span class="eng">
                     Our harvesting techniques are traditional. This means that olives are picked by hand or with the assistance
                     of a rake. We retain from using sacks to collect the olives as this could result in olives heating up from
                     not getting enough oxygen. Therefore, our olives are collected into breathable 20-25kg cases with holes 
-                    around and transported to the pressing plant as soon as possible. All of our olive oils are natural extra 
+                    around and transported to the pressing plant as soon as possible. <br><br>
+                    All of our olive oils are natural extra 
                     virgin, cold pressed and horizontally extracted. The extracted olive oil is then transferred to our airtight 
                     chrome tanks, in our temperature-controlled storage space at the farm. In order to keep the oil at its most 
-                    natural state we do not filter it. The filtration occurs through natural decantation for 2-4 months. This way
+                    natural state we do not filter it. <br><br>
+                    The filtration occurs through natural decantation for 2-4 months. This way
                     we guarantee that the oil we bottle has the highest levels of its natural components and nutrients, while 
-                    also assuring a longer shelf life.
-                  </span>
-                   <span class="turk">
-                      Zeytinlerimiz geleneksel yöntemle, yani ağaçtan el ile toplanır. Hasat süresince çuval kullanılmamasına
-                      özen gösterilir. Bunun sebebi toplandıktan sonra zeytin kızışmasını önlemek içindir. Bu yüzden zeytinlerimiz hava alan 
-                      20-25 kg delikli kasalara toplanır ve bekletilmeden sıkım haneye götürülür. Sıkım haneden hava almayan krom tanklara 
-                      boşaltılan yağımız, en natürel hali ile dolumu yapılabilmesi için filtrelenmez. Filtrelenmesi, doğal yollar ile tankta 
-                      bekletilmesi sonucu posanın dibe çökmesi ile gerçekleşir. <br><br>
-                      Bu şekilde dinlendirilmiş, herhangi bir kimyasal süreçten geçmemiş yağımızın en natürel dolumu ve daha uzun süre tüketimi 
-                      garantilenmiş olur. Bu sebepten ötürü yağlarımız, özellikle hasat sonrası sınırlı sayıda ürettiğimiz Filtresiz Erken Hasat 
-                      Soğuk Sıkım Natürel Sızma Zeytinyağımız, bulanık bir görüntüye sahip olabilir ve zamanla dibinde posa oluşabilir. Bunun 
-                      yaşanması çok doğaldır ve tazelik göstergesidir. Ancak krom tanklarda 2 ay ve üstü bir süre dinlendikten sonra daha saydam 
-                      bir görüntüye ulaşılır. 
+                    also assuring a longer shelf life.</span>
+                    
+                    <span class="turk">
+                        Zeytinlerimiz geleneksel yöntemle, yani ağaçtan el ile toplanır. Hasat süresince çuval kullanılmamasına
+                        özen gösterilir. Bunun sebebi toplandıktan sonra zeytin kızışmasını önlemek içindir. Bu yüzden zeytinlerimiz hava alan 
+                        20-25 kg delikli kasalara toplanır ve bekletilmeden sıkım haneye götürülür. Sıkım haneden hava almayan krom tanklara 
+                        boşaltılan yağımız, en natürel hali ile dolumu yapılabilmesi için filtrelenmez. Filtrelenmesi, doğal yollar ile tankta 
+                        bekletilmesi sonucu posanın dibe çökmesi ile gerçekleşir. <br><br>
+                        Bu şekilde dinlendirilmiş, herhangi bir kimyasal süreçten geçmemiş yağımızın en natürel dolumu ve daha uzun süre tüketimi 
+                        garantilenmiş olur. Bu sebepten ötürü yağlarımız, özellikle hasat sonrası sınırlı sayıda ürettiğimiz Filtresiz Erken Hasat 
+                        Soğuk Sıkım Natürel Sızma Zeytinyağımız, bulanık bir görüntüye sahip olabilir ve zamanla dibinde posa oluşabilir. Bunun 
+                        yaşanması çok doğaldır ve tazelik göstergesidir. Ancak krom tanklarda 2 ay ve üstü bir süre dinlendikten sonra daha saydam 
+                        bir görüntüye ulaşılır.
                     </span>
-                  </article>
-                  
-                  <div class="swash w-100 py-5 mx-auto d-inline-flex justify-content-center">
-                    <img src="media/images/swash.svg" alt="swash"></div>
-                </section>
-  
-                <section class="w-100 mx-auto" id="bc">
-                  <h3 class="w-75 mx-auto dm-serif text-center p-3">
-                     <span class="eng">Bottling and Consumption</span>
-                     <span class="turk">Şişelenme ve Tüketim </span>
-                  </h3>
-                  <article class="w-75 mx-auto mt-3 dm-sans">
-                    <img src="media/images/photos/clear-bottle.jpg" alt="olive oil bottle" class="pic2">
-                    <span class="eng">
-                    We bottle our olive oil upon order to guarantee freshness and to prevent decantation into the packaging. Because we
+                </article>
+                
+            </div>
+            <div class="col-lg-5">
+                <img src="/media/images/photos/branch1.jpg" alt="" width="100%">
+            </div>
+          </div>
+            <!--Whitespace-->
+        <div class="whitespace w-100 mx-auto forest my-2">
+            <h4 class="dm-serif w-100 py-3 text-center text-light m-0">
+                <span class="eng">Bottling and Consumption</span>
+                <span class="turk">Şişelenme ve Tüketim </span>
+            </h4>
+          </div>
+          <div class="cc container-fluid m-0 p-0 w-100 d-inline-flex">
+            <div class="col-lg-4 d-flex justify-content-center">
+                <img src="/media/images/photos/clear-bottle.jpg" alt="" width="65%">
+            </div>
+            <div class="harvest col-lg-8">
+                <article class="art2 mx-auto mt-3 dm-sans">
+                    <span class="eng">We bottle our olive oil upon order to guarantee freshness and to prevent decantation into the packaging. Because we
                     produce unfiltered olive oil, the closer your order is to the date of production the less translucent it will be.
                      Although this is a sign of freshness, it also means that it has a shorter shelf life and contains the most aroma
                     and flavor at its freshest. After the natural decantation which takes around 2 months and onwards, our olive oil
@@ -309,44 +301,30 @@
                     months after opening the package*. The FFA ratio of our oils therefore may vary from 0.4 to 0.9 depending on the 
                     storage after purchasing.  
                     <br><br>
-                    <span class="nb">* We must underline that this recommendation is for the optimal taste and nutrients, 
+                    <span class="nb italic">* We must underline that this recommendation is for the optimal taste and nutrients, 
                       however it is commonly advised that olive oil should be consumed within 2 years.</span>
-                  </span>
-                    
-                    <span class="turk">
-                      Zeytin yağımızın şişelenmesi sipariş üzerinedir, böylelikle en optimal saklama koşullarında saklanmış, daha uzun süreli 
-                      tüketimi ve tazeliği garantilenmiş olur. Zeytinyağı tüketilirken önemli ve dikkat edilmesi gereken hususlar vardır. 
-                      <br><br>
-                      Zeytinin yağının bir meyve yağı olmasının unutulmaması ve o yüzden doğru koşullarda muhafaza edilmesi önemlidir. 
-                      <br> <br>
-                      Üretilmiş asit seviyesinde ve tazeliğinde tüketilmek isteniyorsa, 3-6 ay içerisinde tüketilmesi önerilir. Yağlarımızın 
-                      oleik asit seviyesi bu sebepten ötürü 0.4 ile 0.8 arasında değişim göstermektedir. 
                     </span>
-                    
-                  </article>
-                  <div class="swash w-100 py-5 mx-auto d-inline-flex justify-content-center">
-                    <img src="media/images/swash.svg" alt="swash"></div>
-                </section>
-              </div>
-              
-              <!--Whitespace-->
-              <div class="whitespace w-100 mx-auto"></div>
-              <!--Product container end-->
-            </div> 
-
-            <!--Contact container-->
-          <div class="container mx-auto w-100 d-block p-0 border border-light pb-5" id="contact">
-            <div class="row w-100 mx-auto my-4">
-              <h1 class="my-4 pt-4 w-100 text-center dm-serif">
-                <span class="eng">Contact Us</span>
-                <span class="turk">İletişim</span>
-              </h1>
-              <p class="w-75 mx-auto dm-sans text-center">If you would like to get in touch with us, please
-                fill out the form below. Alternatively, you can also contact us directly via social media.</p>
+                
+                      <span class="turk">
+                        Zeytin yağımızın şişelenmesi sipariş üzerinedir, böylelikle en optimal saklama koşullarında saklanmış, daha uzun süreli 
+                        tüketimi ve tazeliği garantilenmiş olur. Zeytinyağı tüketilirken önemli ve dikkat edilmesi gereken hususlar vardır. 
+                        <br><br>
+                        Zeytinin yağının bir meyve yağı olmasının unutulmaması ve o yüzden doğru koşullarda muhafaza edilmesi önemlidir. 
+                        <br> <br>
+                        Üretilmiş asit seviyesinde ve tazeliğinde tüketilmek isteniyorsa, 3-6 ay içerisinde tüketilmesi önerilir. Yağlarımızın 
+                        oleik asit seviyesi bu sebepten ötürü 0.4 ile 0.8 arasında değişim göstermektedir. 
+                      </span>
+                </article>   
             </div>
-            <div class="row w-100 mx-auto d-inline-flex p-0">
-              <!--Contact form-->
-              <div class="col-lg-7 mx-auto h-100 border-end border-secondary">
+          </div>
+           <!--Whitespace-->
+           <div class="whitespace w-100 mx-auto forest my-2">
+            <h1 class="dm-serif w-100 py-4 text-center text-light m-0">Contact Us</h1>
+        </div>
+        <!--Contact us section-->
+        <div class="cc contactus container-fluid m-0 py-4 w-100 d-inline-flex" id="contact">
+        <div class="form-border col-lg-6 border-end border-dark">
+            <div class="mx-auto h-100">
                 <form class="mx-auto d-block text-dark w-75" method="POST" action="" role="form">
                   <div class="form-group d-inline-block w-100">
                       <label class="text-dark dm-sans my-2">Your Full Name:</label>
@@ -362,63 +340,50 @@
                     </div>
                   <div class="form-group w-100">
                     <label class="text-dark dm-sans my-2">Write your message below:</label>
-                    <textarea class="form-control border border-secondary" name="message"rows="8" placeholder="Type your message here..." required></textarea>
+                    <textarea class="form-control border border-secondary" name="message"rows="5" placeholder="Type your message here..." required></textarea>
                   </div>
                   <div class="btn-div form-group">
-                  <button type="submit" name="submit" class="btn m-2 dm-serif">Submit</button>
-                  <button type="reset" class="btn m-2 dm-serif">Clear Form</button>
+                  <button type="submit" name="submit" class="btn m-2 dm-serif border border-dark">Submit</button>
+                  <button type="reset" class="btn m-2 dm-serif border border-dark">Clear Form</button>
                   </div>
                 </form>
               </div>
-              <!--Social media section-->
-              <div class="social-div col-lg-5 mx-auto h-100">
-                <div class="row mx-auto w-100 pb-5">
-                  <h3 class="dm-serif text-center">Connect with us on <br> Social Media</h3></div>
-
-                <div class="si row mx-auto m-3 border border-secondary d-flex shadow">
-                  <div class="col-4 flex-wrap align-content-center mt-2">
-                    <a href="https://instagram.com/aganbeyciftlik" target="_blank"><i class="fab fa-instagram"></i></a>
-                  </div>
-                  <div class="col-8 d-flex flex-wrap align-content-center">
-                    <h5 class="dm-serif w-100 mt-2">Instagram</h5>
-                  <p class="dm-sans w-100">@aganbeyciftlik</p>
-                  </div>
+        </div>
+        <div class="col-lg-6">
+            <p class="w-100 text-center p-3 text-light dm-sans">
+                <span class="eng"></span>
+            If you would like to get in touch with us, please fill out the contact form. <br>
+            Alternatively, you can also contact us directly via social media.</p>
+            <span class="turk"></span>
+            <div class="row mx-auto w-100 pb-5"><h3 class="dm-serif text-center text-light">
+                Connect with us on <br>Social Media
+                </h3>
+            </div>
+              <h6 class="text-center dm-sans">Follow us on:</h6>
+            <div class="social-icon col-lg-5 mx-auto m-3 d-flex shadow">
+                <div class="col-4 flex-wrap align-content-center mt-2">
+                  <a href="https://instagram.com/aganbeyciftlik" target="_blank"><i class="fab fa-instagram"></i></a>
                 </div>
-
-                <div class="si row mx-auto m-3 border border-secondary d-flex shadow">
-                  <div class="col-4 flex-wrap align-content-center mt-2"><i class="fab fa-facebook"></i></div>
-                  <div class="col-8 d-flex flex-wrap align-content-center">
-                    <h5 class="dm-serif w-100 mt-2">Facebook</h5>
-                  <p class="dm-sans w-100">/aganbeyciftlik</p>
-                  </div>
-                </div>
-
-                <div class="si row mx-auto m-3 border border-secondary d-flex shadow">
-                  <div class="col-4 flex-wrap align-content-center mt-2"><i class="fab fa-twitter"></i></div>
-                  <div class="col-8 d-flex flex-wrap align-content-center">
-                    <h5 class="dm-serif w-100 mt-2">Twitter</h5>
-                  <p class="dm-sans w-100">@aganbeyciftlik</p>
-                  </div>
+                <div class="col-8 d-flex flex-wrap align-content-center">
+                  <h5 class="dm-serif w-100 mt-2">Instagram</h5>
+                <p class="dm-sans w-100">@aganbeyciftlik</p>
                 </div>
               </div>
-              <!--Content row container end-->
+          </div>
+        </div>
+         <!--Whitespace-->
+         <div class="whitespace w-100 mx-auto"></div>
+        
+         <!--Footer--> 
+         <footer class=" row w-100 mx-auto forest p-0">
+            <div class="social row w-100 pt-3">
+             
             </div>
-
-            <!--Contact container end--> 
-          </div>
-          <!--Content container end-->
-        </div> 
-        <!--Footer--> 
-        <footer class=" row w-100 mx-auto forest p-0">
-          <div class="social row w-100 pt-3">
-           
-          </div>
-          <small class="text-muted w-100 text-center pb-3 dm-sans">Ağanbey Çiftlik Copyright 2021</small>
-      </footer>
+            <small class="text-light w-100 text-center pb-3 dm-sans">Ağanbey Çiftlik Copyright 2021</small>
+        </footer>
         <!--Base container end-->
-      </div>
- 
-<!--Popper/BS js-->
+        </div>
+    
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" 
 integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" 
@@ -428,5 +393,7 @@ integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQO
 integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <script defer src="js/map.js"></script>
 <script defer src="js/lang.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
 </body>
 </html>
