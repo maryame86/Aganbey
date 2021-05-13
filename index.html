@@ -13,7 +13,7 @@
 </head>
 <body>
     <!--Base container-->
-  <div class="base container-fluid mx-auto p-0 w-100 d-block" data-spy="scroll" data-target=".navbar-nav" data-offset="0">
+  <div class="base container-fluid mx-auto p-0 w-100 d-block">
         <!--Intro-->
         <div class="intro container-fluid w-100 mx-auto forest d-flex p-0" id="home">
           <!--Overlay-->
@@ -76,23 +76,23 @@
             <div class="dd collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav mx-auto dm-sans">
                 <li class="nav-item px-4">
-                  <a class="nav-link active" aria-current="page" href="#" href="#scrollspyHeading1">
+                  <a class="nav-link active" aria-current="page" href="#">
                     <span class="eng">Home</span><span class="turk">Anasayfa</span></a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link" href="#about" href="#scrollspyHeading2">
+                  <a class="nav-link" href="#about">
                     <span class="eng">About Us</span><span class="turk">Hikayemiz</span></a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link" href="#products" href="#scrollspyHeading3">
+                  <a class="nav-link" href="#products">
                     <span class="eng">Our Products</span><span class="turk">Ürünlerimiz</span></a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link" href="checkout.html" href="#scrollspyHeading4">
+                  <a class="nav-link" href="checkout.html">
                     <span class="eng">Online Store</span><span class="turk">Mağaza</span></a>
                 </li>
                 <li class="nav-item px-4">
-                  <a class="nav-link" href="#contact" href="#scrollspyHeading5">
+                  <a class="nav-link" href="#contact">
                     <span class="eng">Contact Us</span><span class="turk">İletişim</span></a>
                 </li>
                 <li class="nav-item px-4">
@@ -115,23 +115,23 @@
            <div class="row mx-auto w-100">
               <h2 class="text-center my-4 dm-sans">
                 <span class="eng">Embracing Traditions, Chasing Novelties</span>
-                <span class="turk">Gelenekseli kucaklıyoruz, Yenilikleri Kovalıyoruz</span>
+                <span class="turk">Gelenekseli Kucaklıyoruz, Yenilikleri Kovalıyoruz</span>
               </h2>
             </div>
             <div class="swash w-100 pb-4 mx-auto d-inline-flex justify-content-center">
               <img src="media/images/swash.svg" alt="swash"></div>
           </div>
           <div class="pic row p-0 mx-auto d-flex align-items-start justify-content-center">
-            <div class="pic-frame col-lg-6 p-2 bg-light shadow">
-              <img src="media/images/photos/pic.jpg" alt="" class="mx-auto">
+            <div class="pic-frame col-lg-6">
+              <img src="media/images/photos/pic.jpg" alt="pic" width="100%" class="shadow">
             </div>
-            <div class="blurb col-lg-6 d-flex flex-wrap align-items-center">
-              <blockquote class="dm-sans text-center px-4 w-100">
+            <div class="blurb col-lg-4 d-flex flex-wrap align-items-center p-2 shadow">
+              <blockquote class="dm-sans fw-bold text-center pb-3 w-100">
                 <br>
                 <span class="eng"> 
-                The necessities of the lifestyle we are in pursuit of as a family:<br><br>
+                The necessities of the lifestyle <br> we are in pursuit of as a family:<br><br>
                 flavor, health, nature, and pleasure.<br><br>
-                Our goal is to share this special blend with you. <br>
+                Our goal is to share <br> this special blend with you. <br>
               </span>
               <span class="turk">
                 Peşinde olduğumuz <br> hayatın vazgeçilmezleri: <br><br>
@@ -139,8 +139,6 @@
                 Amacımız bu harmanı <br> sizlerle buluşturmak. <br>
               </span>
               </blockquote>
-              <div class="swash w-100 py-4 mx-auto d-inline-flex justify-content-center">
-                <img src="media/images/swash.svg" alt="swash"></div>
             </div>
           </div>
           <!--Whitespace-->
@@ -219,9 +217,11 @@
                 <iframe class="mx-auto border border-secondary" loading="lazy" allowfullscreen 
                 src="https://www.google.com/maps/embed/v1/view?zoom=12&&center=38.3042%2C26.4371&key=AIzaSyBO-uzR-JcE9ai0TGenHOiL3_WA2a0SMlI">
               </iframe>
-                <p class="address dm-sans text-center w-100 mt-4">
+                <p class="address dm-sans text-center w-100 mt-4 fw-bold">
                   Reisdere Mahallesi, Hirsiz Dere, Mevkii no.6,<br>
                   35930, Çeşme/İzmir, Türkiye
+                  <br><br>
+                  Opening Hours: 00:00 - 00:00 (Mon - Sun)
                 </p>
             </section>
           
@@ -237,7 +237,7 @@
                   <span class="turk">Ürünlerimiz</span>
                 </h1>
                 <p class="w-75 mx-auto dm-sans text-center">
-                  <span class="eng">
+                  <span class="">
                     Learn more about how we grow and harvest our olives 
                     and our natural oil production methods below.
                   </span>
@@ -249,10 +249,12 @@
                 <div class="col-lg-6 products-all p-2 mx-auto bg-light shadow">
                   <img src="media/images/photos/products-all.jpg" alt="all-products">
                 </div>
-                <div class="buy col-lg-5 mx-auto d-flex flex-wrap justify-content-center shadow">
-                  <h3 class="text-light dm-sans w-100 text-center mt-4">Visit Our Online Store</h3>
+                <div class="buy col-lg-5 mx-auto d-flex flex-wrap justify-content-center p-3 shadow">
+                  <h3 class="text-light dm-sans w-100 text-center mt-4 fw-bold">Visit Our Online Store</h3>
                   <a href="checkout.html" class="mx-auto">
-                  <button type="button" class="btn btn-lg dm-sans my-5 border border-light">Shop Now</button>
+                  <button type="button" class="btn dm-sans my-5 border border-light fw-bold">Shop Now
+                    <img src="media/images/shopping_cart_white_24dp.svg" alt="cart">
+                  </button>
                 </a>
               </div>
 
@@ -338,26 +340,45 @@
               </div>
               
               <!--Whitespace-->
-              <div class="whitespace w-100 mx-auto"></div>
+              <div class="w-100 mx-auto"></div>
               <!--Product container end-->
             </div> 
 
             <!--Contact container-->
-          <div class="container mx-auto w-100 d-block p-0 border border-light pb-5" id="contact">
+          <div class="contact container mx-auto w-100 d-block p-0 border border-light pb-5" id="contact">
             <div class="row w-100 mx-auto my-4">
               <h1 class="my-4 pt-4 w-100 text-center dm-sans fw-bold">
                 <span class="eng">Contact Us</span>
                 <span class="turk">İletişim</span>
               </h1>
-              <p class="w-75 mx-auto dm-sans text-center">If you would like to get in touch with us, please
-                fill out the form below. Alternatively, you can also contact us directly via social media.</p>
-            </div>
-            <div class="row w-100 mx-auto d-inline-flex p-0">
-
-  
+      
+              <div class="cm col-lg-6 border-end border-dark d-flex align-items-center mt-4">
+                <p class="w-75 mx-auto dm-sans text-center">
+                  If you would like to get in touch with us, please
+                email us or you can give us a call during opening hours. 
+                Alternatively, you can also contact us directly via social media.
+              </p>
+              </div>
+              <div class="col-lg-6 mt-4">
+                <ul class="mt-2">
+                  <li class="py-2">
+                    <i class="fab fa-instagram"></i>
+                    <a href="https://instagram.com/aganbeyciftlik" target="_blank">&nbsp;&nbsp; @abanbeyciftlik</a>
+                  </li>
+                  <li class="py-2">
+                    <i class="far fa-envelope"></i>
+                    <a href="#" target="_blank">&nbsp;&nbsp; hello@aganbey.com</a>
+                  </li>
+                  <li class="py-2">
+                    <i class="fas fa-phone-alt"></i>
+                    <a href="#" target="_blank">&nbsp;&nbsp; +90 0 000 000</a>      
+                  </li>
+                  
+                </ul>
+              </div>
               
-              <!--Content row container end-->
             </div>
+            
 
             <!--Contact container end--> 
           </div>

@@ -120,7 +120,7 @@ section article .nb {
 
 .promo .buy button {
   background-color: transparent;
-  font-size: 2rem;
+  font-size: 1.3rem;
 }
 
 @media (max-width: 575.98px) {
@@ -224,25 +224,45 @@ article .pic3 {
   }
 }
 
-@media (max-width: 575.98px) {
-  .social-div {
-    padding-top: 12%;
-  }
-}
-
-.social-div .si {
-  width: 55%;
-}
-
-@media (max-width: 575.98px) {
-  .social-div .si {
-    width: 75%;
-  }
-}
-
-.social-div .si i {
-  font-size: 3.8rem;
+.contact i {
+  font-size: 2rem;
   color: #1f4d28;
+}
+
+.contact .fa-instagram {
+  font-size: 2.2rem;
+}
+
+@media (max-width: 575.98px) {
+  .contact ul {
+    padding: 0;
+  }
+}
+
+.contact ul li {
+  list-style: none;
+}
+
+@media (max-width: 575.98px) {
+  .contact ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.contact a {
+  text-decoration: none;
+  color: #1f4d28;
+}
+
+@media (max-width: 575.98px) {
+  .contact .cm {
+    border: none !important;
+  }
 }
 
 .intro {
@@ -387,6 +407,9 @@ article .pic3 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 575.98px) {
@@ -396,12 +419,6 @@ article .pic3 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-.front .pic img {
-  width: 100%;
-  padding: 0;
-  margin: 0 auto;
 }
 
 .front blockquote {
@@ -420,8 +437,9 @@ article .pic3 {
   font-weight: bolder;
 }
 
-.pic .blurb .swash {
-  max-width: 20%;
+.pic .blurb {
+  background-color: #657533;
+  color: white;
 }
 
 @media (max-width: 575.98px) {
