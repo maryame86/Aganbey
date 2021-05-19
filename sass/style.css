@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&display=swap");
+@import url("../../../AppData/Local/Microsoft/Windows/Fonts/Register Sans BTN Regular.ttf");
 .dm-sans {
   font-family: "DM Sans", sans-serif;
 }
@@ -24,6 +25,10 @@
 
 .forest {
   background-color: #1f4d28;
+}
+
+.register {
+  font-family: "Register Sans BTN Regular", "sans-serif";
 }
 
 @media (max-width: 575.98px) {
@@ -52,17 +57,6 @@ section article .pic1 {
     padding-bottom: 20px;
     margin: 0 auto;
   }
-}
-
-section blockquote {
-  font-size: 1.75rem;
-  font-weight: 600;
-  color: #657533;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  font-style: normal;
-  margin: 0 auto;
 }
 
 section .swash img {
@@ -147,21 +141,6 @@ section .photos img {
   }
 }
 
-section iframe {
-  height: 300px;
-  width: 550px;
-}
-
-@media (max-width: 575.98px) {
-  section iframe {
-    max-width: 100%;
-  }
-}
-
-section .address {
-  font-size: 1.1rem;
-}
-
 @media (max-width: 575.98px) {
   article span {
     text-align: center;
@@ -169,7 +148,7 @@ section .address {
 }
 
 article .pic2 {
-  width: 32%;
+  width: 36%;
   float: left;
   padding-right: 1rem;
   margin-top: 0.5rem;
@@ -185,7 +164,7 @@ article .pic2 {
 }
 
 article .pic3 {
-  width: 22%;
+  width: 33%;
   float: left;
   padding-right: 1rem;
   margin-top: 0.5rem;
@@ -224,6 +203,12 @@ article .pic3 {
   }
 }
 
+@media (max-width: 575.98px) {
+  .shop .myecwid .category img {
+    width: 25%;
+  }
+}
+
 .contact i {
   font-size: 2rem;
   color: #1f4d28;
@@ -249,6 +234,7 @@ article .pic3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 2%;
 }
 
 @media (max-width: 575.98px) {
@@ -267,9 +253,32 @@ article .pic3 {
   color: #1f4d28;
 }
 
+.contact iframe {
+  min-height: 280px;
+}
+
+.contact h2 {
+  font-weight: bolder;
+}
+
+.contact form input, .contact form textarea {
+  border-radius: 0;
+}
+
 @media (max-width: 575.98px) {
-  .contact .cm {
-    border: none !important;
+  .contact .reserve {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.contact .address img {
+  width: 10%;
+}
+
+@media (max-width: 575.98px) {
+  .contact .address img {
+    width: 25%;
   }
 }
 
@@ -445,9 +454,20 @@ article .pic3 {
   font-weight: bolder;
 }
 
+@media (max-width: 575.98px) {
+  .front .welcome h2 {
+    font-size: 1.8rem;
+  }
+}
+
 .pic .blurb {
   background-color: #657533;
   color: white;
+}
+
+.pic .blurb .phrase {
+  color: #dfd25d;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 575.98px) {
@@ -456,12 +476,18 @@ article .pic3 {
   }
 }
 
-.container {
+.base {
   background-color: #ebe8d3;
+}
+
+.container {
+  background-color: white;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   padding: 0;
   margin: 0 auto;
+  -webkit-box-shadow: 5px 0 5px -5px rgba(20, 20, 20, 0.7), -5px 0 5px -5px rgba(20, 20, 20, 0.7);
+          box-shadow: 5px 0 5px -5px rgba(20, 20, 20, 0.7), -5px 0 5px -5px rgba(20, 20, 20, 0.7);
 }
 
 .container h1 {
@@ -483,6 +509,11 @@ article .pic3 {
   color: white;
 }
 
+nav {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 @media (min-width: 1024.98px) {
   nav .dd {
     -webkit-box-ordinal-group: 2;
@@ -495,7 +526,6 @@ nav .lang {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.75rem;
 }
 
 @media (min-width: 1024.98px) {
@@ -504,6 +534,10 @@ nav .lang {
         -ms-flex-order: 2;
             order: 2;
   }
+}
+
+nav .lang .lng {
+  font-size: 0.85rem;
 }
 
 .social {
@@ -521,16 +555,13 @@ nav .lang {
   width: fit-content;
 }
 
-.about-test .article-div article {
-  padding: 2.2%;
-  font-size: 1rem;
-  text-align: justify;
+h1 span img {
+  width: 20%;
 }
 
-.about-test .article-div article img {
-  width: 50%;
-  float: left;
-  padding: 0 1.2% 0 1.2%;
-  margin-top: 0.75%;
+@media (max-width: 575.98px) {
+  h1 span img {
+    width: 70%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
